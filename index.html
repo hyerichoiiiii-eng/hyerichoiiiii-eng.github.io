@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> 최혜리의 포트폴리오 </title>
+    <link rel="stylesheet" href="stylejs.css">
+    <style>
+#mv{ z-index: -1; width: 100%; height: 100%; object-fit: cover;}
+    </style>
+ </head>
+  <body>
+    <main id="home">
+      <header>
+        <div class="head">
+          <div class="logo"><a href="#home">PORTFOLIO</a></div>
+          <nav>
+            <ul>
+              <li><a href="#home"> Home </a></li>
+              <li><a href="#about"> About </a></li>
+              <li><a href="#project1"> Portfolio I</a></li>
+              <li><a href="#project2"> Portfolio II</a></li>
+              <li><a href="#contact"> Contact </a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <video id="mv" src="m4.mp4" autoplay muted loop type="video/mp4"></video>
+      
+      <div class="hero">
+        <h1> MY PORTFOLIO </h1>
+        <h2> - CHOI HYE RI  -</h2>
+      </div>
+    </main>
+
+    <section id="about">
+      <h2 class="title">About</h2>
+      <div><img src="img/about/about.jpg" /></div>
+    </section>
+
+   <!-- 프로젝트 섹션 -->
+  <section id="project1">
+    <h2 class="title">Design Edit</h2>
+    <div class="gallery">
+      <div class="box" onclick="openModal('project1')">
+        <img src="img/portfolio/poster.jpg" alt="프로젝트 1" class="thumbnail">
+        <p></p>
+      </div>
+      <div class="box" onclick="openModal('project2')">
+        <img src="img/portfolio/leaflet.jpg" alt="프로젝트 2" class="thumbnail">
+        <p>   </p>
+      </div>
+      <div class="box" onclick="openModal('project3')">
+       <img src="img/portfolio/sabo.jpg" alt="프로젝트 3" class="thumbnail">
+       <p>  </p>
+      </div>
+      <div class="box" onclick="openModal('project4')">
+        <img src="img/portfolio/detail.jpg" alt="프로젝트 4" class="thumbnail"> 
+         <p>  </p>
+      </div>
+      <div class="box" onclick="openModal('project5')">
+        <img src="img/portfolio/banner.jpg" alt="프로젝트 5" class="thumbnail">
+         <p>  </p>
+      </div>
+      <div class="box" onclick="openModal('project6')">
+        <img src="img/portfolio/box.jpg" alt="프로젝트 6" class="thumbnail">
+         <p>  </p>
+      </div>
+       </div>
+  </section>
+  
+  <!-- 프로젝트 섹션 2 -->
+  <section id="project2">
+    <section id="project2-1">
+      <h2> Ebook project : Sigil editor </h2>
+      <h3> </h3>
+      <div class="web-project">
+        <div class="wp-left">
+          <img src="img/portfolio/ebook1.jpg">
+          <p> <a href="ebook.pdf" class="btn" target="_blank">  기획서 보기  </a>
+              <a href="reader.html" class="btn" target="_blank">  Ebook View  </a>
+          </p>
+        </div>
+        <div class="wp-right">
+          <h3> Ebook Publishing </h3>
+          <p> <b> Period </b>: 2025. 10. 28 </p>
+          <p> <b> Type :</b> epub file </p>
+          <p> <b> Output :</b> Sigil, photoshop, xhtml, css </p>
+          <p> <b> OVERVIEW :</b></p>
+          <p> 여행 속에서 느낀 감정과 순간들을 시의 형태로 담은 전자 시집입니다. 익숙한 일상에서 벗어나 낯선 길 위에서 마주한 '나'를
+            주제로, 바람처럼 스쳐 지나가는 찰나의 감정을 따뜻한 문장으로 표현하였습니다. 감성적인 이미지를 배치하여 
+            여운이 남는 시각적 분위기를 완성했습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="project2-2">
+      <h2> Shoppingmal project : Cafe24 </h2>
+      <h3> </h3>
+      <div class="web-project">
+        <div class="wp-left">
+          <img src="img/portfolio/shopping1.jpg">
+          <p> <a href="shopedit.pdf" class="btn" target="_blank">  기획서 보기  </a>
+              <a href="https://lisa4036.cafe24.com" class="btn" target="_blank"> Shoppingmal View </a>
+          </p>
+        </div>
+        <div class="wp-right">
+          <h3>Shoppingmal Publishing </h3>
+          <p> <b> Period </b>: 2025. 10. 28 </p>
+          <p> <b> Type :</b> web </p>
+          <p> <b> Output :</b> cafe24, photoshop </p>
+          <p> <b> OVERVIEW :</b></p>
+          <p> 젠틀몬스터 브랜드의 실험적이고 예술적인 아이덴티티를 온라인 환경에서도 감각적으로 표한하기 위해 리디자인한 쇼핑몰입니다. 
+          미니멀한 인터페이스와 과감한 이미지를 배치를 통해 젠틀몬스터만의 독창적인 감성을 시각적으로 강조했습니다.
+          </p>
+        </div>    
+      </div>
+     </section>
+  </section>
+  
+    <!-- 연락처 섹션 -->
+    <footer id="contact">
+      <p>© 2025 My Portfolio | 이메일: lisa4036@naver.com</p>
+      <ul class="social-links">
+        <li><a href="#">010-4551-4036</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </footer>
+
+    <!-- 모달 창 -->
+    <div id="modal" class="modal" onclick="closeModalOnOutside(event)">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+
+    <script src="modal.js"></script>
+  </body>
+</html>
