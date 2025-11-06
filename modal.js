@@ -1,34 +1,34 @@
 // 프로젝트 정보 데이터
 const projects = {
   project1: {
-    title: 'Edit Design Project 1',
+    title: '',
     image: 'img/portfolio/p1.jpg',
-    description: '제 23회 대구 토마토 축제 포스터입니다. 즐겁게 토마토를 판매하고 노는 사람들의 모습과 귀여운 토마토 캐릭터로 활기찬 축제 분위기를 표현하였습니다.'
+    description: ''
   },
     project2: {
-    title: 'Edit Design Project 2',
-    image: 'img/portfolio/',
-    description: '레터링 디자인 프로젝트로, 타이포그래피를 중심으로 한 비주얼 아이덴티티 작업입니다.'
+    title: '',
+    image: 'img/portfolio/p2.jpg',
+    description: ''
   },
   project3: {
-    title: 'Edit Design Project 3',
-    image: 'img/portfolio/name.png',
-    description: '네이밍과 로고 디자인을 통합한 브랜딩 프로젝트입니다.'
+    title: '',
+    image: 'img/portfolio/p3.jpg',
+    description: ''
   },
   project4: {
-    title: 'Edit Design Project 4',
-    image: 'img/portfolio/logo1.png',
-    description: '기업 로고 디자인 프로젝트로, 브랜드의 정체성을 명확히 표현했습니다.'
+    title: '',
+    image: 'img/portfolio/p4.jpg',
+    description: ''
   },
   project5: {
-    title: 'Edit Design Project 5',
-    image: 'img/portfolio/logo1.png',
-    description: '모던하고 세련된 로고 디자인으로 브랜드 가치를 높였습니다.'
+    title: '',
+    image: 'img/portfolio/p5.jpg',
+    description: ''
   },
   project6: {
-    title: 'Edit Design Project 6',
-    image: 'img/portfolio/logo1.png',
-    description: '심볼과 로고타입을 결합한 통합 브랜딩 디자인입니다.'
+    title: '',
+    image: 'img/portfolio/p6.jpg',
+    description: ''
   }
 };
 
