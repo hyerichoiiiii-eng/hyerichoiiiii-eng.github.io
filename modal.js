@@ -29,6 +29,11 @@ const projects = {
     title: '',
     image: 'img/portfolio/p6.jpg',
     description: ''
+  },
+  project7: {
+    title: '',
+    image: 'img/portfolio/p7.jpg',
+    description: ''
   }
 };
 
